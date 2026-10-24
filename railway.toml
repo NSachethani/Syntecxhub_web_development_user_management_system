@@ -1,0 +1,8 @@
+# Railway deployment config
+# Deploy: railway up (after installing railway CLI and linking repo)
+
+[deploy]
+healthcheckPath = "/health"
+healthcheckTimeout = 100
+restartPolicyType = "on_failure"
+restartPolicyMaxRetries = 10
